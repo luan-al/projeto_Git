@@ -1,0 +1,320 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.82.90
+# Built for i686-pc-mingw32
+# Copyright (C) 1988-2012 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Wed Jul 27 13:20:16 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+CARBON_MEM_DISABLE = 1
+# makefile
+MAKEFLAGS = Rrqp
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+PLATFORMIO_IDE = 2.5.0
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+HOMEDRIVE = C:
+# automatic
+@F = $(notdir $@)
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# makefile
+CURDIR := d:/Drive/UFMG/projeto_Git
+# default
+SHELL := sh.exe
+# environment
+GUROBI_HOME = C:\gurobi950\win64
+# environment
+WINDIR = C:\Windows
+# environment
+VSCODE_NLS_CONFIG = {"locale":"pt-br","availableLanguages":{"*":"pt-br"},"_languagePackId":"dc7ba51c4efcfec965eaa07de065afd6.pt-br","_translationsConfigFile":"C:\\Users\\luan-\\AppData\\Roaming\\Code\\clp\\dc7ba51c4efcfec965eaa07de065afd6.pt-br\\tcf.json","_cacheRoot":"C:\\Users\\luan-\\AppData\\Roaming\\Code\\clp\\dc7ba51c4efcfec965eaa07de065afd6.pt-br","_resolvedLanguagePackCoreLocation":"C:\\Users\\luan-\\AppData\\Roaming\\Code\\clp\\dc7ba51c4efcfec965eaa07de065afd6.pt-br\\3b889b090b5ad5793f524b5d1d39fda662b96a2a","_corruptedFile":"C:\\Users\\luan-\\AppData\\Roaming\\Code\\clp\\dc7ba51c4efcfec965eaa07de065afd6.pt-br\\corrupted.info","_languagePackSupport":true}
+# environment
+PYCHARM COMMUNITY EDITION = C:\Users\luan-\AppData\Local\JetBrains\PyCharm Community Edition 2021.3.3\bin;
+# environment
+ONEDRIVE = C:\Users\luan-\OneDrive
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+# makefile
+MAKEFILE_LIST := 
+# environment
+TMP = C:\Users\luan-\AppData\Local\Temp
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+VSCODE_CWD = C:\Users\luan-\AppData\Local\Programs\Microsoft VS Code
+# environment
+NO_PROXY = 127.0.0.1
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+USERPROFILE = C 
+:\Users\luan-
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+NUMBER_OF_PROCESSORS = 8
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver
+# automatic
+%F = $(notdir $%)
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_17928_GYCPWGULSZNGOJWV
+# environment
+COMPUTERNAME = LAPTOP-OCBMQDKN
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+WORKON_HOME = C:\Users\luan-\Envs
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERNAME = luan-
+# environment
+PUBLIC = C:\Users\Public
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\luan-\AppData\Roaming\Code\CachedData\3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# environment
+LOGONSERVER = \\LAPTOP-OCBMQDKN
+# environment
+MSVC = C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\VC\Tools\MSVC\14.29.30037\bin\Hostx64\x64
+# environment
+ONEDRIVECONSUMER = C:\Users\luan-\OneDrive
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+USERDOMAIN = LAPTOP-OCBMQDKN
+# environment
+MAKELEVEL := 0
+# environment
+PLATFORMIO_PATH = C:\Users\luan-\.platformio\penv\Scripts;C:\Users\luan-\.platformio\penv;C:\Users\luan-\.platformio\python3;C:\gurobi950\win64\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;D:\win64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\luan-\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\luan-\AppData\Local\Programs\Python\Python310\;C:\Users\luan-\miniconda3;C:\Users\luan-\miniconda3\Library\mingw-w64\bin;C:\Users\luan-\miniconda3\Library\usr\bin;C:\Users\luan-\miniconda3\Library\bin;C:\Users\luan-\miniconda3\Scripts;C:\Users\luan-\AppData\Local\Microsoft\WindowsApps;C:\Users\luan-\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\luan-\AppData\Local\JetBrains\PyCharm Community Edition 2021.3.3\bin;C:\Users\luan-\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\MinGW\;C:\Users\luan-\.dotnet\tools;C:\Users\luan-\AppData\Roaming\npm;C:\Users\luan-\AppData\Local\Yarn\bin;C:\gurobi950\win64\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;D:\win64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\luan-\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\luan-\AppData\Local\Programs\Python\Python310\;C:\Users\luan-\miniconda3;C:\Users\luan-\miniconda3\Library\mingw-w64\bin;C:\Users\luan-\miniconda3\Library\usr\bin;C:\Users\luan-\miniconda3\Library\bin;C:\Users\luan-\miniconda3\Scripts;C:\Users\luan-\AppData\Local\Microsoft\WindowsApps;C:\Users\luan-\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\luan-\AppData\Local\JetBrains\PyCharm Community Edition 2021.3.3\bin;C:\Users\luan-\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\MinGW\;C:\Users\luan-\.dotnet\tools;C:\Users\luan-\AppData\Roaming\npm;C:\Users\luan-\AppData\Local\Yarn\bin
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+PATH = C:\gurobi950\win64\bin;C:\Program Files\Microsoft\jdk-11.0.12.7-hotspot\bin;D:\win64\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2021b\runtime\win64;C:\Program Files\MATLAB\R2021b\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\luan-\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\luan-\AppData\Local\Programs\Python\Python310\;C:\Users\luan-\miniconda3;C:\Users\luan-\miniconda3\Library\mingw-w64\bin;C:\Users\luan-\miniconda3\Library\usr\bin;C:\Users\luan-\miniconda3\Library\bin;C:\Users\luan-\miniconda3\Scripts;C:\Users\luan-\AppData\Local\Microsoft\WindowsApps;C:\Users\luan-\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\luan-\AppData\Local\JetBrains\PyCharm Community Edition 2021.3.3\bin;C:\Users\luan-\AppData\Local\GitHubDesktop\bin;C:\MinGW\bin;C:\MinGW\;C:\Users\luan-\.dotnet\tools;C:\Users\luan-\AppData\Roaming\npm;C:\Users\luan-\AppData\Local\Yarn\bin
+# default
+MAKE_VERSION := 3.82.90
+# makefile
+.DEFAULT_GOAL := 
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# environment
+LOCALAPPDATA = C:\Users\luan-\AppData\Local
+# environment
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := make.exe
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+# environment
+OS = Windows_NT
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\3338149262e699eeb24e343bf5bf296e-1.69.2-main-sock
+# environment
+HOMEPATH = \Users\luan-
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+PROMPT = $P$G
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+SYSTEMROOT = C:\Windows
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# automatic
++F = $(notdir $+)
+# environment
+APPDATA = C:\Users\luan-\A 
+ppData\Roaming
+# environment
+__COMPAT_LAYER = RunAsAdmin
+# environment
+TEMP = C:\Users\luan-\AppData\Local\Temp
+# environment
+COMSPEC = C:\Windows\system32\cmd.exe
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PLATFORMIO_CALLER = vscode
+# environment
+LC_ALL = C
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+SYSTEMDRIVE = C:
+# environment
+PROCESSOR_REVISION = a502
+# default
+.INCLUDE_DIRS = C:/MinGW/include
+# default
+.RECIPEPREFIX := 
+# environment
+LANG = C
+# environment
+PROCESSOR_LEVEL = 6
+# environment
+VSCODE_PID = 17928
+# environment
+USERDOMAIN_ROAMINGPROFILE = LAPTOP-OCBMQDKN
+# variable set hash-table stats:
+# Load=94/1024=9%, Rehash=0, Collisions=15/110=14%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# C:\Program Files\MATLAB\R2021b\runtime\win64 (key C:/Program Files/MATLAB/R2021b/runtime/win64, mtime 1637586356): 10 files, no impossibilities.
+# C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR (key C:/Program Files/NVIDIA Corporation/NVIDIA NvDLISR, mtime 1617294888): 5 files, no impossibilities.
+# C:\Program Files (x86)\Yarn\bin\ (key C:/Program Files (x86)/Yarn/bin/, mtime 1657650806): 7 files, no impossibilities.
+# C:\Users\luan-\AppData\Roaming\npm (key C:/Users/luan-/AppData/Roaming/npm, mtime 1658757795): 15 files, no impossibilities.
+# C:\Windows\System32\WindowsPowerShell\v1.0\ (key C:/Windows/System32/WindowsPowerShell/v1.0/, mtime 1606371686): 29 files, no impossibilities.
+# . (key d:/Drive/UFMG/projeto_Git, mtime 1658934243): 6 files, no impossibilities.
+# C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/, mtime 1643583017): 7 files, no impossibilities.
+# C:\Users\luan-\miniconda3: could not be stat'd.
+# C:\Program Files\Microsoft SQL Server\150\Tools\Binn\ (key C:/Program Files/Microsoft SQL Server/150/Tools/Binn/, mtime 1643583013): 4 files, no impossibilities.
+# C:\Users\luan-\AppData\Local\Microsoft\WindowsApps 
+ (key C:/Users/luan-/AppData/Local/Microsoft/WindowsApps, mtime 1658922635): 19 files, no impossibilities.
+# C:\Users\luan-\AppData\Local\Yarn\bin (key C:/Users/luan-/AppData/Local/Yarn/bin, mtime 1658425007): 2 files, no impossibilities.
+# C:\Program Files\Git\cmd (key C:/Program Files/Git/cmd, mtime 1658931757): 8 files, no impossibilities.
+# C:\Windows\System32\OpenSSH\: could not be stat'd.
+# C:\MinGW\bin (key C:/MinGW/bin, mtime 1653311918): 58 files, no impossibilities.
+# C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common (key C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common, mtime 1617294638): 10 files, no impossibilities.
+# C:\Users\luan-\AppData\Local\GitHubDesktop\bin (key C:/Users/luan-/AppData/Local/GitHubDesktop/bin, mtime 1652199831): 4 files, no impossibilities.
+# C:\Users\luan-\AppData\Local\JetBrains\PyCharm Community Edition 2021.3.3\bin (key C:/Users/luan-/AppData/Local/JetBrains/PyCharm Community Edition 2021.3.3/bin, mtime 1648989726): 29 files, no impossibilities.
+# C:\Users\luan-\AppData\Local\Programs\Microsoft VS Code\bin (key C:/Users/luan-/AppData/Local/Programs/Microsoft VS Code/bin, mtime 1658340141): 4 files, no impossibilities.
+# C:\Users\luan-\miniconda3\Library\usr\bin: could not be stat'd.
+# C:\Program Files\nodejs\ (key C:/Program Files/nodejs/, mtime 1657632346): 13 files, no impossibilities.
+# C:\Users\luan-\AppData\Local\Programs\Python\Python310\ (key C:/Users/luan-/AppData/Local/Programs/Python/Python310/, mtime 1648985645): 18 files, no impossibilities.
+# C:\Users\luan-\miniconda3\Library\bin: could not be stat'd.
+# C:\gurobi950\win64\bin (key C:/gurobi950/win64/bin, mtime 1644272174): 16 files, no impossibilities.
+# C:\Users\luan-\AppData\Local\Programs\Python\Python310\Scripts\ (key C:/Users/luan-/AppData/Local/Programs/Python/Python310/Scripts/, mtime 1658341004): 32 files, no impossibilities.
+# C:\Windows (key C:/Windows, mtime 1657889131): 126 files, no impossibilities.
+# C:\Users\luan-\miniconda3\Scripts: could not be stat'd.
+# C:\Program Files\Microsoft\jd 
+k-11.0.12.7-hotspot\bin (key C:/Program Files/Microsoft/jdk-11.0.12.7-hotspot/bin, mtime 1643583605): 127 files, no impossibilities.
+# C:\Users\luan-\miniconda3\Library\mingw-w64\bin: could not be stat'd.
+# C:\Program Files\MATLAB\R2021b\bin (key C:/Program Files/MATLAB/R2021b/bin, mtime 1637586340): 18 files, no impossibilities.
+# C:\Windows\System32\Wbem (key C:/Windows/System32/Wbem, mtime 1657889133): 154 files, no impossibilities.
+# D:\win64\bin (key D:/win64/bin, mtime 1634244716): 16 files, no impossibilities.
+# C:\Program Files\dotnet\ (key C:/Program Files/dotnet/, mtime 1653313500): 13 files, no impossibilities.
+# C:\Users\luan-\.dotnet\tools: could not be stat'd.
+# C:\Windows\system32 (key C:/Windows/system32, mtime 1658429783): 3053 files, no impossibilities.
+# C:\MinGW\ (key C:/MinGW/, mtime 1653259904): 9 files, no impossibilities.
+
+# 3812 files, no impossibilities in 35 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule s 
+earch has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/15=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 8 (7) / strings = 3760 / storage = 57306 B / avg = 15 B
+# current buf: size = 8174 B / used = 143 B / count = 11 / avg = 13 B
+# other used: total = 49132 B / count = 3749 / avg = 13 B
+# other free: total = 55 B / max = 13 B / min = 3 B / avg = 7 B
+
+# strcache performance: lookups = 3855 / hit rate = 2%
+# hash-table stats:
+# Load=3760/8192=46%, Rehash=0, Collisions=1470/3855=38%
+# Finished Make data base on Wed Jul 27 13:20:16 2022
+
+ 
+make.exe: *** No rule to make target 'all'.  Stop.
+
